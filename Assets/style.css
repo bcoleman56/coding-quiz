@@ -1,0 +1,172 @@
+* {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --button-color: #3821bb;
+    --button-hover-color: #9080e9
+}
+
+
+
+
+body {
+    height: 100vh;
+    width:100vw;
+}
+
+h1 {
+    font-size: 200%;
+    text-align: center;
+}
+
+p {
+    margin: 10px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    height: 30px;
+    align-items: center;
+}
+
+
+header #highscores-link {
+    font-size: 125%;
+    display: inline-block;
+    padding: 10px;
+    color: purple;
+    text-decoration: none;
+}
+
+header #highscores-link:hover {
+    color: magenta;
+}
+
+header p {
+    font-size: 125%;
+    color: purple;
+    position: fixed;
+    right: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+}
+
+.answer-btn {
+    background-color: var(--button-color);
+    color: white;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.answer-btn:hover {
+    background-color: var(--button-hover-color);
+}
+
+.btn-style {
+    background-color: var(--button-color);
+    color: white;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.btn-style:hover {
+    background-color: var(--button-hover-color);
+}
+
+
+
+#start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 60%;
+
+}
+
+#start h1 {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#start-btn {
+    border-radius: 5px;
+    justify-content: center;
+    color: white;
+    background-color: var(--button-color);
+}
+
+#start-btn:hover {
+    background-color: var(--button-hover-color);
+}
+
+#end-game-form {
+    flex-direction: column;
+    display: none;
+    width: 50%;
+    height: 60%;
+}
+
+#end-game-form h2 {
+    margin: 0;
+    font-size: 200%;
+}
+
+#end-game-form p {
+    margin: 10px 0;
+    text-align: left;
+}
+
+#input button {
+    background-color: var(--button-color);
+    color: white;
+    border-radius: 5px;
+}
+
+#input button:hover {
+    background-color: var(--button-hover-color);
+}
+
+#questions {
+    flex-direction: column;
+    display: none;
+    width: 50%;
+    height: 60%;
+}
+
+#highscores {
+    flex-direction: column;
+    display: flex;
+    width: 50%;
+    height: 60%;
+}
+
+#highscores-list {
+    /* keeps the number of the list item on the inside of the container */
+    list-style-position: inside; 
+    list-style-type:number;
+    background-color: rgb(218, 183, 219);
+}
+
+#score {
+    margin: 100px;
+}
+
+#buttons {
+    margin: 10px 0;
+}
+
+#result {
+    font-style: italic;
+    color: lightgray;
+}
