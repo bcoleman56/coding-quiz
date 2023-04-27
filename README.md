@@ -17,4 +17,4 @@ The user clicks the 'Start Quiz' button to start the quiz, this also starts a ti
 Got my reset.css from this site https://meyerweb.com/eric/tools/css/reset/
 
 ## License
-Please refer to github
+Please refer to GitHub LICENSE file
